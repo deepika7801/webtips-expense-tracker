@@ -1,0 +1,17 @@
+{
+  "wallet": 33289,
+  "transactions": [
+    {
+      "category": "rent",
+      "date": "2022-11-12",
+      "amount": "20000",
+      "typeOfExpense": "Necessary"
+    },
+    {
+      "category": "rent",
+      "date": "2022-11-17",
+      "amount": "7500",
+      "typeOfExpense": "Unnecessary"
+    }
+  ]
+}

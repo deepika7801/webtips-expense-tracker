@@ -1,0 +1,137 @@
+
+.info-page {
+  background-color: rgb(153, 227, 243);
+  display: block;
+  height: 100%;
+  
+}
+input[type="text"],
+input[type="date"],
+input[type="password"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  box-sizing: border-box;
+}
+
+input[type="radio"],
+select {
+  width: 10%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  box-sizing: border-box;
+}
+
+.login-button {
+  background-color: mediumblue;
+  border: mediumblue;
+  border-radius: 1em;
+  color: white;
+  height: 2em;
+  width: 4.5em;
+}
+.login-info {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+}
+.login-page {
+  align-items: center;
+  display: flex;
+  gap: 6em;
+  justify-content: center;
+  height: 100%;
+}
+.logo {
+
+  padding-right: 5em;
+  width: 30em;
+}
+
+
+
+.user-input {
+  width: 15.2em;
+  border-radius: 1em;
+  height: 1.8em;
+  border: cyan;
+}
+
+.signup-page {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+.password {
+  width: 14em;
+  border-radius: 1em;
+  height: 1.8em;
+  border: cyan;
+}
+
+.signup {
+  height: 2em;
+  width: 4.5em;
+  border-radius: 1em;
+  background-color: mediumblue;
+  color: white;
+  border: mediumblue;
+}
+.signup-page {
+  display: none;
+}
+
+.username {
+  width: 15.2em;
+  border-radius: 1em;
+  height: 1.8em;
+  border: cyan;
+}
+
+.add-transaction {
+  display: block;
+}
+
+#category {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  box-sizing: border-box;
+}
+
+.high-light {
+  font-weight: bolder;
+  margin: 10px;
+  padding: 10px;
+}
+
+.save-entry > button {
+	background-color: #4caf50;
+	color: white;
+	width: 100%;
+	padding: 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.save-entry > button:hover {
+	background-color: #45a049;
+  }
+  .main-page {
+	display: none;
+  }
